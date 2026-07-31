@@ -1,0 +1,14 @@
+import random
+import os
+
+# @TODO Import your Ingestor and MemeEngine classes
+from QuoteEngine import DocxImporter
+from QuoteEngine import  CSVImporter
+from QuoteEngine import TextImporter
+from QuoteEngine import PDFImporter
+from QuoteEngine import Ingestor
+#print(DocxImporter.parse('./_data/DogQuotes/DogQuotesDOCX.docx'))
+#print(CSVImporter.parse('./_data/DogQuotes/DogQuotesCSV.csv'))
+#print(TextImporter.parse('./_data/DogQuotes/DogQuotesTXT.txt'))
+#print(PDFImporter.parse('./_data/DogQuotes/DogQuotesPDF.pdf'))
+print(Ingestor.parse('./_data/DogQuotes/DogQuotesPDF.pdf'))
